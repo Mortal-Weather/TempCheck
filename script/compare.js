@@ -100,10 +100,10 @@ function search(win){
         <button class="dropdown-btn" onclick="toggleDropdown('.dropdown .swe')">Select Swedish
             City</button>
         <div class="swe">
-            <div onclick="weatherApi('Malmo', 'one')">Malmö</div>
-            <div onclick="weatherApi('Norrkoping', 'one')">Norrköping</div>
-            <div onclick="weatherApi('Stockholm', 'one')">Stockholm</div>
-            <div onclick="weatherApi('kiruna', 'one')">Kirunna</div>
+            <div class="pointer" onclick="weatherApi('Malmo', 'one')">Malmö</div>
+            <div class="pointer" onclick="weatherApi('Norrkoping', 'one')">Norrköping</div>
+            <div class="pointer" onclick="weatherApi('Stockholm', 'one')">Stockholm</div>
+            <div class="pointer" onclick="weatherApi('kiruna', 'one')">Kirunna</div>
         </div>
     </div>
     `
@@ -113,10 +113,10 @@ function search(win){
         <button class="dropdown-btn" onclick="toggleDropdown('.dropdown .rwa')">Select Rwandan
             City</button>
         <div class="rwa">
-            <div onclick="weatherApi('Kigali', 'two')">Kigali</div>
-            <div onclick="weatherApi('Gisenyi', 'two')">Gisenyi</div>
-            <div onclick="weatherApi('Butare', 'two')">Butare</div>
-            <div onclick="weatherApi('Gitarama', 'two')">Gitarama</div>
+            <div class="pointer" onclick="weatherApi('Kigali', 'two')">Kigali</div>
+            <div class="pointer" onclick="weatherApi('Gisenyi', 'two')">Gisenyi</div>
+            <div class="pointer" onclick="weatherApi('Butare', 'two')">Butare</div>
+            <div class="pointer" onclick="weatherApi('Gitarama', 'two')">Gitarama</div>
         </div>
     </div>
     `
